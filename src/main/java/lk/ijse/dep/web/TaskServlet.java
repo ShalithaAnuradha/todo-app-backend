@@ -50,7 +50,7 @@ public class TaskServlet extends HttpServlet {
     "text":"GMMM",
     "priority": "PRIORITY2",
     "complete": true
-}*/     /* <----Example for JSON request*/
+}*/   /* <----Example for JSON request*/
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
