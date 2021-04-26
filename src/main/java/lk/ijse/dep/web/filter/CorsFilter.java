@@ -16,7 +16,7 @@ public class CorsFilter extends HttpFilter {
 
     @Override
     protected void doFilter(HttpServletRequest req, HttpServletResponse resp, FilterChain chain) throws IOException, ServletException {
-        resp.addHeader("Access-Control-Allow-Origin","http://localhost:4200");
+        resp.addHeader("Access-Control-Allow-Origin","http://localhost:4200"); //To allow CROS - Cross Origin Sharing Policy
         resp.addHeader("Access-Control-Allow-Headers", "Content-Type");
         resp.addHeader("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
         chain.doFilter(req, resp);
