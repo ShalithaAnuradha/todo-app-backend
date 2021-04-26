@@ -60,7 +60,7 @@ public class Task {
                 "id='" + id + '\'' +
                 ", text='" + text + '\'' +
                 ", priority=" + priority +
-                ", complete=" + completed +
+                ", completed=" + completed +
                 '}';
     }
 }
