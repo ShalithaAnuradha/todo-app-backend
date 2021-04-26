@@ -1,8 +1,8 @@
 package lk.ijse.dep.web;
 
 
-import lk.ijse.dep.web.util.Priority;
 import lk.ijse.dep.web.model.Task;
+import lk.ijse.dep.web.util.Priority;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 
